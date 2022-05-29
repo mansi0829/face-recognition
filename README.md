@@ -7,6 +7,9 @@ Develop a browser-based application or a native mobile application to demonstrat
 Mansi Gundre - [mansigundre1@gmail.com](mailto:mansigundre1@gmail.com)</br>
 Project Link: [https://github.com/mansi0829/face-recognition](https://github.com/mansi0829/face-recognition)
 
+## Structure
+<img src="/documentation/facerecog.png"></img>
+
 ## Getting Started
 To start server locally, follow these simple steps.
 ### Prerequisites
@@ -14,7 +17,6 @@ To start server locally, follow these simple steps.
 ` https://nodejs.org/ `
 - Python Virtual Environment
 ` https://www.python.org/ `
-
 
 ### Installation
 - Clone the repo `git clone https://github.com/mansi0829/face-recognition.git`
@@ -25,7 +27,7 @@ To start server locally, follow these simple steps.
 - To Run Server Side `pip install -r requirements.txt` and setup Python Virtual Environment and then run `python attendance.py` in terminal
 
 ## API Documentation
-API documentation is done using face-recognition and openCV. Visit `/face-recognition` and <a href="https://opencv.org/">https://opencv.org</a> for API documentation.
+API documentation is done using face-recognition and openCV. Visit `/documentation` and <a href="https://opencv.org/">https://opencv.org</a> for API documentation.
 
 ## Roadmap
 See the [open issues](https://github.com/mansi0829/face-recognition/issues) for a list of proposed features (and known issues).
