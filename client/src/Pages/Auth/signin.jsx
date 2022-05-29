@@ -25,7 +25,7 @@ const SignIn = () => {
     <div className="px-6 h-full text-gray-800 dark:text-gray-100">
       <div className="flex xl:justify-center justify-center items-center flex-wrap h-full g-6">
         <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
-          <div className="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
+          <div className="flex justify-center items-center my-4">
             <p className="text-center font-semibold text-2xl mx-4 mb-0">
               Sign In
             </p>
@@ -83,9 +83,9 @@ const SignIn = () => {
             </div>
             <p className="text-sm text-center font-semibold mt-2 pt-1 mb-0">
               Dont Have an account?
-              <a href="/auth/signup">
+              <a href="/signup">
                 <a className="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out">
-                  Sign In
+                  Sign Up
                 </a>
               </a>
             </p>

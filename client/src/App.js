@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import SignUp from "./Pages/Auth/signin";
 import SignIn from "./Pages/Auth/signin";
@@ -21,7 +20,6 @@ function App() {
           <Route path="/report" element={<AttendanceReport />} />
         </Routes>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const table = () => {
                     TOTAL Presenty
                   </span>
                   <div className="py-4 flex items-center justify-center text-center">
-                    <span className="mr-4 text-3xl">80%</span>
+                    <span className="mr-4 text-3xl">72%</span>
                     <span className="inline-flex items-center bg-green-500 h-6 px-2 rounded text-white text-xs">
                       +12.0%
                     </span>
@@ -40,7 +40,7 @@ const table = () => {
                     Aquracy
                   </span>
                   <div className="py-4 flex items-center justify-center text-center">
-                    <span className="mr-4 text-3xl">60%</span>
+                    <span className="mr-4 text-3xl">76%</span>
                     <span className="inline-flex items-center bg-green-500 h-6 px-2 rounded text-white text-xs">
                       +3.0%
                     </span>
@@ -71,6 +71,21 @@ const table = () => {
                           </td>
                           <td className="text-right p-2 pr-4  text-gray-300">
                             <div className="text-green-500">Present</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="p-2 py-4 ">
+                            <div className="pl-4 flex flex-wrap flex-row items-center">
+                              <div className="mr-4 h-12 w-12 bg-blue-600 rounded-full block flex  flex-row justify-center items-center text-white">
+                                L
+                              </div>
+                              <div className="text-gray-300">Leena</div>
+                            </div>
+                          </td>
+                          <td className="text-right p-2 pr-4  text-gray-300">
+                            <div className="text-red-500">
+                              <div>Absent</div>
+                            </div>
                           </td>
                         </tr>
                         <tr>
