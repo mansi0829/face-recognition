@@ -3,7 +3,7 @@ import React from "react";
 const table = () => {
   return (
     <div>
-      <div id="app" className="md:flex antialiased text-white">
+      <div className="md:flex antialiased text-white">
         <div className=" h-screen w-full">
           <div>
             <div className="m-4">
@@ -96,7 +96,9 @@ const table = () => {
                             </div>
                           </td>
                           <td className="text-right p-2 pr-4  text-gray-300">
-                            <div className="text-red-500">Absent</div>
+                            <div className="text-red-500">
+                              <div>Absent</div>
+                            </div>
                           </td>
                         </tr>
                       </tbody>

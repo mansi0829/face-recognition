@@ -1,10 +1,9 @@
-import React from 'react'
-import Table from '../../Components/Table/table';
+import React from "react";
+import Table from "../../Components/Table/table";
 import { useAuth } from "../../context/AuthUserContext";
 
 const AttendanceReport = () => {
   const { authUser, loading } = useAuth();
-
   return (
     <div>
       {loading ? (
@@ -26,10 +25,16 @@ const AttendanceReport = () => {
                   </div>
                 </div>
                 <p className="mt-4 text-xl leading-7 text-gray-400 dark:text-gray-200 font-regular uppercase">
-                Meetings Dashboard
+                  Attendance Report
                 </p>
               </div>
-              <Table />
+              {!authUser ? (
+                <div className="text-white text-center text-2xl">Students <br></br> Login to know Record</div>
+              ) : (
+                <div>
+                  <Table />
+                </div>
+              )}
             </div>
           </div>
         </>
@@ -38,4 +43,4 @@ const AttendanceReport = () => {
   );
 };
 
-export default AttendanceReport
+export default AttendanceReport;

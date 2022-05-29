@@ -40,8 +40,8 @@ const Navbar = () => {
       <nav className=" flex flex-wrap items-center justify-between px-5 py-3 ">
         <div className=" w-full bg-transparent opacity-50 dark:opacity-80 z-20 px-4 mx-auto flex flex-wrap items-center  justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <div className="name font-extrabold text-3xl flex-1 flex justify-between items-center text-gray-900 dark:text-white">
-              <a href="/">MOM APP</a>
+            <div className="name text-xl flex-1 flex justify-between items-center text-gray-900 dark:text-white">
+              <a href="/">ATTENDANCE MANAGEMENT SYSTEM</a>
             </div>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -87,7 +87,7 @@ const Navbar = () => {
                   ))}
                 </div>
               ) : (
-                <div>
+                <div className="flex">
                   {AuthLinks.map(({ name, path }) => (
                     <a key={path} href={path}>
                       <div
@@ -98,7 +98,7 @@ const Navbar = () => {
                       </div>
                     </a>
                   ))}
-                  <a href="/">
+                  <a href="/" className="py-2">
                     <button
                       type="button"
                       onClick={signOut}
