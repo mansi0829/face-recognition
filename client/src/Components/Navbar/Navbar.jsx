@@ -19,7 +19,7 @@ const Links = [
 const Navbar = () => {
   return (
     <div>
-      <nav className="nav flex flex-wrap items-center justify-between px-4 bg-gray-900 text-gray-100">
+      <nav className="nav flex flex-wrap items-center justify-between px-4 bg-black text-gray-100">
         <div className="flex flex-no-shrink items-center mr-6 py-4 ">
           <span className="font-semibold text-xl tracking-tight">
             Attendance Management System
