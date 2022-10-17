@@ -46,8 +46,7 @@ To start server locally, follow these simple steps.
 <img src="/documentation/db.png"></img>
 
 ## API Documentation
-
-API documentation is done using face-recognition and openCV. Visit `/face-recognition` and <a href="https://opencv.org/">https://opencv.org</a> for API documentation.
+API documentation is done using face-recognition and openCV. Visit `/documentation` and <a href="https://opencv.org/">https://opencv.org</a> for API documentation.
 
 ## Roadmap
 
