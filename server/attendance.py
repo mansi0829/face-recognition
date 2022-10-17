@@ -15,15 +15,15 @@ mydb = mysql.connector.connect(
 #import all images
 path= 'images'
 image = []
-classNames = []
+classNames = []         # name of the images
 myList = os.listdir(path)
-print(myList)
 for cls in myList:
     currentImage = cv2.imread(f'{path}/{cls}')
     image.append(currentImage)
     classNames.append(os.path.splitext(cls)[0])
 print(classNames)
 
+# considering face landmark mark its encode
 def findEncodings(image):
     encodeList = []
     for img in image:
@@ -50,8 +50,6 @@ def markAttendance(name):
             mydb.commit()
             print(mycursor.rowcount, "record inserted.")
             f.writelines(f'\n{name},{dtString}')
-
-
 
 enCodeListKnown = findEncodings(image)
 print('Encoding complete')
